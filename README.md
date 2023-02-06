@@ -46,9 +46,11 @@
 ```root.render(<React.StrictMode>Whatever you want to do here.</React.StrictMode>)```
 #### g) Components
 - Components is a function which allows a chunk of code to be reused.
-- ```class ShoppingList extends React.Component  
+```
+class ShoppingList extends React.Component  
 {  
 }
+
 ```
 ## 6) Online Editor
 - ```https://codepen.io```
