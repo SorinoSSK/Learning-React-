@@ -69,7 +69,9 @@ class ShoppingList extends React.Component
 - In this case, **render()** method returns a chunk of code to be displayed on screen
 - The above html code is equivalent to the following code
 ```
-return React.createElement('div', {className: 'shopping-list'},
+return React.createElement
+(
+  'div', {className: 'shopping-list'},
   React.createElement('h1', /* ... h1 children ... */),
   React.createElement('ul', /* ... ul children ... */)
 );
