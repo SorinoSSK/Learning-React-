@@ -39,7 +39,7 @@ Run ```npm install -g create-react-app```
 - This file will link up **App.js** with **index.html**
 - The idea is similar to flask.
 #### ReactDom.render(Variable, ID)
-```ReactDom.render(asdasfd, document.getElementById('testID'));```
+```ReactDOM.render(asdasfd, document.getElementById('testID'));```
 ## 6) Online Editor
 ```https://codepen.io```
 #### a) Open pen settings
