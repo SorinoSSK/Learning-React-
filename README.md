@@ -38,8 +38,12 @@ Run ```npm install -g create-react-app```
 - ```src -> index.js```
 - This file will link up **App.js** with **index.html**
 - The idea is similar to flask.
-#### ReactDom.render(Variable, ID)
+#### e) ReactDOM.render(Variable, ID)
 ```ReactDOM.render(asdasfd, document.getElementById('testID'));```
+#### d) ReactDOM.createRoot(ID)
+- Similar to 5e)
+```const root = ReactDOM.createRoot(document.getElementById('test'));```
+```root.render(<React.StrictMode>Whatever you want to do here.</React.StrictMode>)```
 ## 6) Online Editor
 ```https://codepen.io```
 #### a) Open pen settings
