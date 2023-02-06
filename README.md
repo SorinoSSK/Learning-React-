@@ -49,6 +49,16 @@
 ```
 class ShoppingList extends React.Component  
 {  
+    render()  
+    {
+      <div className = "shopping-list">
+        <h1>Shopping List for {this.props.name}</h1>
+        <u1>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+      </div>
+    }
 }
 
 ```
@@ -67,3 +77,4 @@ class ShoppingList extends React.Component
 ```https://unpkg.com/react-dom/umd/react-dom.development.js```
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0
+- https://reactjs.org/
