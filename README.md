@@ -11,5 +11,10 @@ Run ```npm install -g create-react-app```
 #### a) Open up Node.js command prompt
 #### b) Change directory to intended directory
 ```cd ...```
+This directory will be used to store creates react project.
 #### c) Create a project **(Do not use caps for project name)**
 ```create-react-app project-name```
+
+## 3) Using react project
+#### a) Open up Node.js command prompt
+#### b) Change directory to intended directory
