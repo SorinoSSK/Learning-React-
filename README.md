@@ -42,6 +42,16 @@ Run ```npm install -g create-react-app```
 ```ReactDom.render(asdasfd, document.getElementById('testID'));```
 ## 6) Online Editor
 ```https://codepen.io```
-
+#### a) Open pen settings
+```Open JS Settings```
+#### b) Set preprocessor to Babel
+- Under ```JavaScript Preprocessor```
+- Select Babel
+#### c) Add externel scripts to run react libraries
+- Under ```Add External Scripts/Pens```
+- Under ```Add resource text box```
+- Add these two URL  
+```https://unpkg.com/react/umd/react.development.js```  
+```https://unpkg.com/react-dom/umd/react-dom.development.js```
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0
