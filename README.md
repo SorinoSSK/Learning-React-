@@ -15,9 +15,26 @@ Run ```npm install -g create-react-app```
 #### c) Create a project **(Do not use caps for project name)**
 ```create-react-app project-name```
 
-## 3) Using react project
+## 3) Running react project
 #### a) Open up Node.js command prompt
 #### b) Change directory to intended directory **(Directory of project folder)**
 #### c) To run the react file
 - Hosting react project (browser)
 - ```npm start```
+
+## 4) Visual Studio code can be used for editing visual studio
+## 5) Ideology behind React
+#### a) There will be 3 basic folder generated after running "2a)"
+- node-modules
+- public
+- src
+#### b) index.html
+- ```public -> index.html```
+- This file will store the front end of the webpage
+#### c) App.js
+- ```src -> App.js```
+- This file will store the back end of the webpage. E.g. Functionality of buttons, variables of front end.
+#### d) index.js
+- ```src -> index.js```
+- This file will link up **App.js** with **index.html**
+- The idea is similar to flask.
