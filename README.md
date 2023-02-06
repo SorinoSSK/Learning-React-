@@ -2,15 +2,15 @@
 
 ## 1) Installation
 #### a) Install Node.js
-```https://nodejs.org/en/download/```
+- ```https://nodejs.org/en/download/```
 #### b) Open up Node.js command prompt
 #### c) Install react
-Run ```npm install -g create-react-app```
+- Run ```npm install -g create-react-app```
 
 ## 2) Create react project
 #### a) Open up Node.js command prompt
 #### b) Change directory to intended directory
-```cd ...```  
+- ```cd ...```  
 - This directory will be used to store created react project.
 #### c) Create a project **(Do not use caps for project name)**
 ```create-react-app project-name```
@@ -38,16 +38,22 @@ Run ```npm install -g create-react-app```
 - ```src -> index.js```
 - This file will link up **App.js** with **index.html**
 - The idea is similar to flask.
-#### e) ReactDOM.render(Variable, ID)
-```ReactDOM.render(asdasfd, document.getElementById('testID'));```
-#### d) ReactDOM.createRoot(ID)
+#### e) ReactDOM.render(Variable, ID) [Within index.js]
+- ```ReactDOM.render(asdasfd, document.getElementById('testID'));```
+#### f) ReactDOM.createRoot(ID) [Within index.js]
 - Similar to 5e)  
 ```const root = ReactDOM.createRoot(document.getElementById('test'));```  
 ```root.render(<React.StrictMode>Whatever you want to do here.</React.StrictMode>)```
+#### g) Components
+- Components is a function which allows a chunk of code to be reused.
+- ```class ShoppingList extends React.Component  
+{  
+}
+```
 ## 6) Online Editor
-```https://codepen.io```
+- ```https://codepen.io```
 #### a) Open pen settings
-```Open JS Settings```
+- ```Open JS Settings```
 #### b) Set preprocessor to Babel
 - Under ```JavaScript Preprocessor```
 - Select Babel
