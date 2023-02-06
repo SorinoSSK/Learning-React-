@@ -11,4 +11,4 @@ Run ```npm install -g create-react-app```
 ### a) Change directory to intended directory
 ```cd ...```
 ### b) Create a project
-```create-react-app demo-project```
+```create-react-app project-name```
