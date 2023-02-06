@@ -41,8 +41,8 @@ Run ```npm install -g create-react-app```
 #### e) ReactDOM.render(Variable, ID)
 ```ReactDOM.render(asdasfd, document.getElementById('testID'));```
 #### d) ReactDOM.createRoot(ID)
-- Similar to 5e)
-```const root = ReactDOM.createRoot(document.getElementById('test'));```
+- Similar to 5e)  
+```const root = ReactDOM.createRoot(document.getElementById('test'));```  
 ```root.render(<React.StrictMode>Whatever you want to do here.</React.StrictMode>)```
 ## 6) Online Editor
 ```https://codepen.io```
