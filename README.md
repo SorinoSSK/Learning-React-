@@ -17,4 +17,7 @@ Run ```npm install -g create-react-app```
 
 ## 3) Using react project
 #### a) Open up Node.js command prompt
-#### b) Change directory to intended directory
+#### b) Change directory to intended directory **(Directory of project folder)**
+#### c) To start the react file
+- Hosting react project (browser)
+- ```npm start```
