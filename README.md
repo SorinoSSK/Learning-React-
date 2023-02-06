@@ -38,3 +38,5 @@ Run ```npm install -g create-react-app```
 - ```src -> index.js```
 - This file will link up **App.js** with **index.html**
 - The idea is similar to flask.
+#### ReactDom.render(Variable, ID)
+```ReactDom.render(asdasfd, document.getElementById('testID'));```
