@@ -40,3 +40,8 @@ Run ```npm install -g create-react-app```
 - The idea is similar to flask.
 #### ReactDom.render(Variable, ID)
 ```ReactDom.render(asdasfd, document.getElementById('testID'));```
+## 6) Online Editor
+```https://codepen.io```
+
+## Reference
+- https://www.youtube.com/watch?v=0twjvW0c1r0
