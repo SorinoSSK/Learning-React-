@@ -40,10 +40,10 @@ An online editor such as ```https://codepen.io``` can be used to implement and t
 #### b) Set preprocessor to Babel
 Select ```Bebel``` under ```JavaScript Preprocessor``` setting.
 #### c) Add externel scripts to run react libraries
-Add the following URL,
+Add the following URL, under ```Add resource text box``` within the```Add External Scripts/Pens``` setting.
 1) ```https://unpkg.com/react/umd/react.development.js```  
-2) ```https://unpkg.com/react-dom/umd/react-dom.development.js```  
-Under ```Add resource text box``` within the```Add External Scripts/Pens``` setting. 
+2) ```https://unpkg.com/react-dom/umd/react-dom.development.js```
+ 
 
 ## Ideology/Terminology behind React
 React has some additional terminology and a different code implementation from convention thus this section will highlight a few of them.
