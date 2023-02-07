@@ -31,9 +31,22 @@ Use the command ```cd ...``` to change to the directory of your React project (I
 To execute the React project, type the following command, ```npm start```. The React project will be compiled and executed. A webpage will appear on a new tab or browser have it has completed compiling.
 
 ## Editing of NodeJS program
-The coding of the program can be done using ```Visual Studio code```.  
+The coding of the program can be done using ```Visual Studio code```.
 
-## 5) Ideology behind React
+## Online Editor
+An online editor such as ```https://codepen.io``` can be used to implement and test your code. However, you have to modify certain settings before it can be used to compile React program. The follow steps will guide you in the modification of ```https://codepen.io``` settings.
+#### a) Open pen settings
+```Open JS Settings```
+#### b) Set preprocessor to Babel
+Select ```Bebel``` under ```JavaScript Preprocessor``` setting.
+#### c) Add externel scripts to run react libraries
+Add the following URL,
+1) ```https://unpkg.com/react/umd/react.development.js```  
+2) ```https://unpkg.com/react-dom/umd/react-dom.development.js```  
+Under ```Add resource text box``` within the```Add External Scripts/Pens``` setting. 
+
+## Ideology/Terminology behind React
+React has some additional terminology and a different code implementation from convention thus this section will highlight a few of them.
 #### a) There will be 3 basic folder generated after running "2a)"
 - node-modules
 - public
@@ -89,19 +102,7 @@ return React.createElement
 #### h) Props
 - Props is a subset of a component. Component is the parent class and Props is a child class.
 - this.props.value, passes the child ID from component to the child.
-## 6) Online Editor
-- ```https://codepen.io```
-#### a) Open pen settings
-- ```Open JS Settings```
-#### b) Set preprocessor to Babel
-- Under ```JavaScript Preprocessor```
-- Select Babel
-#### c) Add externel scripts to run react libraries
-- Under ```Add External Scripts/Pens```
-- Under ```Add resource text box```
-- Add these two URL  
-```https://unpkg.com/react/umd/react.development.js```  
-```https://unpkg.com/react-dom/umd/react-dom.development.js```
+
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0
 - https://reactjs.org/
