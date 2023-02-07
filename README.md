@@ -76,6 +76,9 @@ return React.createElement
   React.createElement('ul', /* ... ul children ... */)
 );
 ```
+#### h) Props
+- Props is a subset of a component. Component is the parent class and Props is a child class.
+- this.props.value, passes the child ID from component to the child.
 ## 6) Online Editor
 - ```https://codepen.io```
 #### a) Open pen settings
