@@ -1,5 +1,5 @@
-# Learning-React
-
+# Learning React
+This repositories contains learning guide for me to pick up the skill in coding react as it differs from conventional web based coding. References of the content could be found at the very end of this repository.
 ## 1) Installation
 #### a) Install Node.js
 - ```https://nodejs.org/en/download/```
