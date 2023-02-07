@@ -1,28 +1,38 @@
 # Learning React
 This repositories contains learning guide for me to pick up the skill in coding react as it differs from conventional web based coding. References of the content could be found at the very end of this repository.
-## 1) Installation
+## Installation
+React is a front-end library that uses javascript on a NodeJS framework rather than a language itself. Therefore, user should install NodeJS before installing React.
 #### a) Install Node.js
-- ```https://nodejs.org/en/download/```
+Install NodeJS first from ```https://nodejs.org/en/download/```.
 #### b) Open up Node.js command prompt
+After install NodeJS, open up ```Node.js command prompt``` to begin install React library.
 #### c) Install react
-- Run ```npm install -g create-react-app```
+In the ```Node.js command prompt```, type the following command, ```npm install -g create-react-app``` to install React.
 
-## 2) Create react project
+## Creation of React project
+The creation of a React project have to be done manually on the ```Node.js command prompt``` before we begin coding.
 #### a) Open up Node.js command prompt
+Open up ```Node.js command prompt``` to create a React project.
 #### b) Change directory to intended directory
-- ```cd ...```  
-- This directory will be used to store created react project.
-#### c) Create a project **(Do not use caps for project name)**
-```create-react-app project-name```
+Use the command ```cd ...``` to change to the directory you intend to store the newly created React project. This directory is not the React project directory itself.
+#### c) Create a project 
+Within the directory, type the following command, ```create-react-app (project-name)``` to create the React project.
+**Notes**
+- Do not use caps for project name, an error will be shown instead.
+- (project-name) is a unique name to be given to the React project.
 
-## 3) Running react project
+## Executing React project
+React project will be compiled and executed from the command prompt.
 #### a) Open up Node.js command prompt
-#### b) Change directory to intended directory **(Directory of project folder)**
-#### c) To run the react file
-- Hosting react project (browser)
-- ```npm start```
+Open up ```Node.js command prompt``` to run a React project.
+#### b) Change directory to intended directory
+Use the command ```cd ...``` to change to the directory of your React project (In the React project directory and not the directory that stores your React project).
+#### c) Execute the React file
+To execute the React project, type the following command, ```npm start```. The React project will be compiled and executed. A webpage will appear on a new tab or browser have it has completed compiling.
 
-## 4) Visual Studio code can be used for editing visual studio
+## Editing of NodeJS program
+The coding of the program can be done using ```Visual Studio code```.  
+
 ## 5) Ideology behind React
 #### a) There will be 3 basic folder generated after running "2a)"
 - node-modules
