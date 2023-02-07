@@ -47,21 +47,23 @@ Add the following URL, under ```Add resource text box``` within the```Add Extern
 
 ## Ideology/Terminology behind React
 React has some additional terminology and a different code implementation from convention thus this section will highlight a few of them.
-#### a) There will be 3 basic folder generated after running "2a)"
-- node-modules
-- public
-- src
-#### b) index.html
-- ```public -> index.html```
-- This file will store the front end of the webpage
-#### c) App.js
-- ```src -> App.js```
-- This file will store the back end of the webpage. E.g. Functionality of buttons, variables of front end.
-#### d) index.js
-- ```src -> index.js```
-- This file will link up **App.js** with **index.html**
-- The idea is similar to flask.
-#### e) ReactDOM.render(Variable, ID) [Within index.js]
+#### 1) Structure of React
+Unlike conventional web application or application programming, React consist of 3 basic folders which are generated after executing ```Creation of React project```. The 3 basic folders are
+1) node-modules
+2) public
+3) src
+#### 2) Primary file of React or the frontend of the webpage
+Similar to many web based application, the main page that will be displayed is ```index.html```.  
+The file can be found in ```public -> index.html```.
+#### 3) Primary backend file of React
+```App.js``` is the primary backend file that will be rendered (fed into variables) in ```index.html```
+The file can be found in ```src -> App.js``` and it usually consist of functionality components such as buttons, and variables of front end.
+#### 4) Linking both frontend and backend of React project
+```index.js``` is the file that provides the linkage between ```index.html``` and ```App.js```
+The file can be found in ```src -> index.js```. The idea of this structure is similar to flask framework.
+#### 5) Rendering
+Rendering is a term used to feed values from the backend to the variables declared at the front end and there are 2 ways to implement rendering.  
+a) ReactDOM.render(Variable, ID) [Within index.js]
 - ```ReactDOM.render(asdasfd, document.getElementById('testID'));```
 #### f) ReactDOM.createRoot(ID) [Within index.js]
 - Similar to 5e)  
