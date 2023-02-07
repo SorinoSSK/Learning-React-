@@ -62,15 +62,21 @@ The file can be found in ```src -> App.js``` and it usually consist of functiona
 ```index.js``` is the file that provides the linkage between ```index.html``` and ```App.js```
 The file can be found in ```src -> index.js```. The idea of this structure is similar to flask framework.
 #### 5) Rendering
-Rendering is a term used to feed values from the backend to the variables declared at the front end and there are 2 ways to implement rendering.  
-a) ReactDOM.render(Variable, ID) [Within index.js]
-- ```ReactDOM.render(asdasfd, document.getElementById('testID'));```
-#### f) ReactDOM.createRoot(ID) [Within index.js]
-- Similar to 5e)  
-```const root = ReactDOM.createRoot(document.getElementById('test'));```  
-```root.render(<React.StrictMode>Whatever you want to do here.</React.StrictMode>)```
-#### g) Components
-- Components is a function which allows a chunk of code to be reused.
+Rendering is a term used to feed values from the backend to the variables declared at the front end. There are 2 ways to implement rendering and the code will be implemented within ```index.js```.  
+a) ReactDOM.render(Variable, ID)
+This line of code can be used in the following way, ```ReactDOM.render((Var), document.getElementById('testID'));```  
+Where ```(Var)``` is any variable or HTML code you intend to feed to ```testID``` in the frontend.  
+b) ReactDOM.createRoot(ID)
+This line of code have a different implementation than ```a)```, but they works the same way. It can be implemented in the following way,  
+```
+const root = ReactDOM.createRoot(document.getElementById('test'));  
+root.render(<React.StrictMode>Whatever you want to do here.</React.StrictMode>)
+```  
+Where ```test``` is the variable implemented at the frontend and ```Whatever you want to do here.``` is the same as ```(Var)```
+#### 6) Components and Props
+Rather than calling it functions, classes, parent, and child, React have a different terminology for reusing code.  
+**Components**  
+Components is similar to a function which allows a chunk of code to be reused. An example can be seen below.
 ```
 class ShoppingList extends React.Component  
 {  
@@ -90,6 +96,7 @@ class ShoppingList extends React.Component
     }
 }
 ```
+In this instance,
 - ShoppingList is a **React component class** or **React component type**
 - In this case, **render()** method returns a chunk of code to be displayed on screen
 - The above html code is equivalent to the following code
