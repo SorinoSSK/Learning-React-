@@ -106,7 +106,7 @@ return React.createElement
   React.createElement('ul', /* ... ul children ... */)
 );
 ```
-**Props**
+<ins>**Props**</ins>  
 Props is a subset of a component where a component is the parent class and props is a child class.
 To obtain the index of the prop, you can use ```this.props.value``` to pass the child ID of the prop from the component.
 
