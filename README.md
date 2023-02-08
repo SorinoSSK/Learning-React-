@@ -96,10 +96,8 @@ class ShoppingList extends React.Component
     }
 }
 ```
-In this instance,
-- ShoppingList is a **React component class** or **React component type**
-- In this case, **render()** method returns a chunk of code to be displayed on screen
-- The above html code is equivalent to the following code
+In this instance, ```ShoppingList`` is a **React component class** or **React component type**, and that **render()** method returns a chunk of code to be displayed on screen.
+**The above html code is also equivalent to the following code.**
 ```
 return React.createElement
 (
@@ -108,9 +106,9 @@ return React.createElement
   React.createElement('ul', /* ... ul children ... */)
 );
 ```
-#### h) Props
-- Props is a subset of a component. Component is the parent class and Props is a child class.
-- this.props.value, passes the child ID from component to the child.
+**Props**
+Props is a subset of a component where a component is the parent class and props is a child class.
+To obtain the index of the prop, you can use ```this.props.value``` to pass the child ID of the prop from the component.
 
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0
