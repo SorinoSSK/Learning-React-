@@ -230,6 +230,12 @@ function App()
   )
 }
 ```
+#### 11) Usage of curly brackets in React 
+- JavaScript XML (JSX)  
+By using ```{variable}```, you are breaking out of HTML code to start JavaScript coding within ```{}```. The idea would be thing that ```{}``` allows JavaScript code to exist within HTML code.
+- Destructuring syntax  
+The usage of this is to allow the import of specific library from a long list of libraries. For example, ```import {BrowserRouter} from "react-router-dom"```. The idea is similar to how **python** import its library.
+
 
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0 [Date of access: 06/02/2023]
