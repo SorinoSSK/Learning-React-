@@ -172,6 +172,58 @@ If ```var``` is used inside of a block, the variable will still be available out
 **Notes**  
 ```for loops``` and ```while loops``` are considered to be a block. 
 
+#### 10) Defining variable to be used for rendering
+This is just a note for how React works when using variables to be renders. When you define the variable name with caps at the start, ```e.g. Test```, then when rendering ```Test```, it will render a non-html component. 
+The following two examples are the same where the second example provides more flexibility in your variable naming convention.
+```
+function App() 
+{
+  let Component
+  switch(window.location.pathname)
+  {
+    case "/":
+      Component = App
+      break
+    case "/pricing":
+      Component = Pricing
+      break
+    case "/about":
+      Component = About
+      break
+  }
+  return (
+    <>
+      <Navbar/>
+      <Component/>
+    </>
+  )
+}
+```
+```
+function App() 
+{
+  let component
+  switch(window.location.pathname)
+  {
+    case "/":
+      component = <App />
+      break
+    case "/pricing":
+      component = <Pricing />
+      break
+    case "/about":
+      component = <About />
+      break
+  }
+  return (
+    <>
+      <Navbar/>
+      <component/>
+    </>
+  )
+}
+```
+
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0 [Date of access: 06/02/2023]
 - https://reactjs.org/ [Date of access: 06/02/2023]
