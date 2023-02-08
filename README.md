@@ -237,7 +237,7 @@ By using ```{variable}```, you are breaking out of HTML code to start JavaScript
 The usage of this is to allow the import of specific library from a long list of libraries. For instance, ```import {BrowserRouter} from "react-router-dom"``` imports the library ```BrowserRouter``` from ```react-router-dom```. To import more than 1 specific library, we can code it as such, ```import {Route, Routes} from "react-router-dom"``` The idea is similar to how **python** import its library.
 
 #### 12) Directing
-
+To be continued...  
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0 [Date of access: 06/02/2023]
 - https://reactjs.org/ [Date of access: 06/02/2023]
