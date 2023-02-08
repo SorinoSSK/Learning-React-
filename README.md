@@ -151,7 +151,8 @@ class Board extends React.Component {
   }
 }
 ```
-
+#### 7) Console log
+```console.log("MESSAGE")``` is a javascript code that performs similarly to ```printf()``` or ```System.out.print()```. It is useful for debugging webpages through ```F12 -> console```.
 
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0
