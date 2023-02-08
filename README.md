@@ -154,6 +154,13 @@ class Board extends React.Component {
 #### 7) Console log
 ```console.log("MESSAGE")``` is a javascript code that performs similarly to ```printf()``` or ```System.out.print()```. It is useful for debugging webpages through ```F12 -> console```.
 
+#### 8) Location of current webpage
+```window.location``` can be use to extract the path of the current webpage. An example of what can be seen when you perform ```console.log(window.location)```
+```
+![image](https://user-images.githubusercontent.com/88191297/217409671-a6395f63-13d0-4662-8c7d-afb8b5c1135a.png)
+
+```
+
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0
 - https://reactjs.org/
