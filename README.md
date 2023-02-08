@@ -49,7 +49,7 @@ Add the following URL, under ```Add resource text box``` within the```Add Extern
 #### a) Open up Node.js command prompt
 Open up ```Node.js command prompt``` to install libraries.
 #### b) Install your intended library
-In this example, the command will instal react router that is DOM specific
+In this example, the command will instal react router that is DOM specific.  
 Use the command ```npm -i react-router-dom``` to change to install react router.
 
 ## Ideology/Terminology behind React
