@@ -156,7 +156,8 @@ class Board extends React.Component {
 
 #### 8) Location of current webpage
 ```window.location``` can be use to extract the path of the current webpage. An example of what can be seen when you perform ```console.log(window.location)```  
-![image](https://github.com/SorinoSSK/Learning-React/blob/main/Image/Example1.png)
+![image](https://github.com/SorinoSSK/Learning-React/blob/main/Image/Example1.png)  
+Thus, using ```window.location.pathname``` will return **/pricing**.
 
 ## Reference
 - https://www.youtube.com/watch?v=0twjvW0c1r0
