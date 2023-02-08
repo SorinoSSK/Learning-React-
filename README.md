@@ -234,7 +234,7 @@ function App()
 - JavaScript XML (JSX)  
 By using ```{variable}```, you are breaking out of HTML code to start JavaScript coding within ```{}```. The idea would be thing that ```{}``` allows JavaScript code to exist within HTML code.
 - Destructuring syntax  
-The usage of this is to allow the import of specific library from a long list of libraries. For example, ```import {BrowserRouter} from "react-router-dom"```. The idea is similar to how **python** import its library.
+The usage of this is to allow the import of specific library from a long list of libraries. For instance, ```import {BrowserRouter} from "react-router-dom"``` imports the library ```BrowserRouter``` from ```react-router-dom```. To import more than 1 specific library, we can code it as such, ```import {Route, Routes} from "react-router-dom"``` The idea is similar to how **python** import its library.
 
 
 ## Reference
