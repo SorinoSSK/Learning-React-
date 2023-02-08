@@ -160,7 +160,7 @@ class Board extends React.Component {
 Thus, using ```window.location.pathname``` will return **/pricing**.
 
 #### 9) Variable type
-There are 2 type of variable declaration, excluding ```define``` and such which are embedded system specific. One being variable typing and the other non variable typing. Variable typing is define to be variables such as <ins>int, long, str</ins>, and so on while non-variable typing does not require user to define the type of the variable. ```let``` and ```var``` are such non-variable type.  
+There are 2 type of variable declaration, excluding ```define``` and such which are embedded system specific. One being **variable typing** and the other **non variable typing**. Variable typing is define to be variables such as <ins>int, long, str</ins>, and so on while non-variable typing does not require user to define the type of the variable. ```let``` and ```var``` are such non-variable type.  
 - <ins>**var**</ins>  
 ```var``` has a function scope but no a block scope.  
 If ```var``` is used outside of a function, it will be considered to be in a global scope.  
