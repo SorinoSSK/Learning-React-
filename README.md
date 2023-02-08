@@ -43,7 +43,14 @@ Select ```Bebel``` under ```JavaScript Preprocessor``` setting.
 Add the following URL, under ```Add resource text box``` within the```Add External Scripts/Pens``` setting.
 1) ```https://unpkg.com/react/umd/react.development.js```  
 2) ```https://unpkg.com/react-dom/umd/react-dom.development.js```
- 
+
+## Installing libraries
+...
+#### a) Open up Node.js command prompt
+Open up ```Node.js command prompt``` to install libraries.
+#### b) Install your intended library
+In this example, the command will instal react router that is DOM specific
+Use the command ```npm -i react-router-dom``` to change to install react router.
 
 ## Ideology/Terminology behind React
 React has some additional terminology and a different code implementation from convention thus this section will highlight a few of them.
