@@ -75,7 +75,7 @@ root.render(<React.StrictMode>Whatever you want to do here.</React.StrictMode>)
 Where ```test``` is the variable implemented at the frontend and ```Whatever you want to do here.``` is the same as ```(Var)```
 #### 6) Components and Props
 Rather than calling it functions, classes, parent, and child, React have a different terminology for reusing code.  
-**Components**  
+<ins>**Components**</ins>  
 Components is similar to a function which allows a chunk of code to be reused. An example can be seen below.
 ```
 class ShoppingList extends React.Component  
