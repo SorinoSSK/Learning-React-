@@ -30,6 +30,12 @@ Use the command ```cd ...``` to change to the directory of your React project (I
 #### c) Execute the React file
 To execute the React project, type the following command, ```npm start```. The React project will be compiled and executed. A webpage will appear on a new tab or browser have it has completed compiling.
 
+## Pulling React project from git
+If you have an exist react project and you have pulled it, you should run
+```
+npm install react-scripts --save
+```
+
 ## Editing of NodeJS program
 The coding of the program can be done using ```Visual Studio code```.
 
